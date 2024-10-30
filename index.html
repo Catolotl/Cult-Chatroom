@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="auth-section">
+        <h1>Welcome to Chat App</h1>
+        <input type="text" id="username" placeholder="Enter your username">
+        <div id="auth-message" class="auth-message"></div>
+        <button id="register-button">Register</button>
+        <button id="login-button">Login</button>
+    </div>
+
+    <div id="app">
+        <h2>Chatrooms</h2>
+        <div>
+            <input type="text" id="new-chatroom" placeholder="New chatroom name">
+            <button id="create-chatroom">Create Chatroom</button>
+        </div>
+        <ul id="chatroom-list"></ul>
+        <div id="current-chatroom">Chatroom: </div>
+        
+        <div id="messages"></div>
+
+        <div id="input-container">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
