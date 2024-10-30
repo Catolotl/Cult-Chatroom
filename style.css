@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+#auth-section, #app {
+    width: 400px;
+    text-align: center;
+}
+
+#auth-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#auth-message {
+    color: red;
+    margin-top: 10px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#chatroom-creation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#chatroom-creation input {
+    width: 65%;
+}
+
+#chatroom-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+#chatroom-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chatroom-list li:hover .delete-button {
+    display: inline; /* Show delete button on hover */
+}
+
+.selected-chatroom {
+    background-color: #e6f7ff;
+}
+
+#chat-display {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+#messages {
+    height: 150px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+.message-container div {
+    padding: 4px;
+}
+
+#input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#message-input {
+    width: 80%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
